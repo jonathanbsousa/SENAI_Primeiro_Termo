@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="font/font.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="js/loja.js" ></script>
+    <header>
+        <div class="container-header">
+            <div class="box1">
+                <div class="logo">
+                    <img src="img/logo.png" alt="" />
+                </div>
+                <div class="procurar">
+                    <input class="search" type="text" />
+                </div>
+                <div class="lista">
+                    <ul>
+                        <li><a href="loja.html">HOME</a></li>
+                        <li><a href="/carrinho.html"><img style="width: 60px;
+                                position: relative;
+                                bottom: 15px;
+                                " src="/img/icons/carrinho.png" alt=""></a></li>
+                        <li><a href="/login.html"><img style="
+                                width: 50px;
+                                position: relative;
+                                bottom: 11px;
+                                " src="/img/icons/User.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="category">
+            <div class="container-category">
+                <div class="lista2">
+                    <ul>
+                        <li>Bolos</li>
+                        <li>Panificados</li>
+                        <li><a href="#salgados">Salgados</a></li>
+                        <li>Bebida</li>
+                        <li>Carnes</li>
+                        <li>Massas</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-main">
+            <div class="cc">
+                <img class="imagem" id="carrossel" src="/img/Carrosel/foto1.webp" alt="">
+        
+                <div class="btn">
+                    <button class="botao1" onclick="mudarimg()" ></button>
+                    <button class="botao2" onclick="mudarimg2()" ></button>
+                    <button class="botao2" onclick="mudarimg3()" ></button>
+                    <button class="botao2" onclick="mudarimg4()" ></button>
+                </div>
+            </div>
+            <div class="vendidos">
+                <div class="boxs">
+                    <div class="box1">
+                        <img class="foto1-carrosel" src="img/Carrosel/foto1.webp" alt="" />
+                        <div class="text">
+                            <p>TESTE</p>
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <img class="foto1-carrosel" src="img/Carrosel/foto2.avif" alt="" />
+                    </div>
+                    <div class="box1">
+                        <img class="foto1-carrosel" src="img/Carrosel/foto3.jpg" alt="" />
+                    </div>
+                    <div class="box1">
+                        <img class="foto1-carrosel" src="img/Carrosel/foto4.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="market">
+                <h1 class="titulo1" id="salgados">Destaque</h1>
+                <div class="segurar-boxs">
+                    <a href="">
+                        <div class="box2">
+                            <img class="foto2-carrosel" src="img/Carrosel/foto3.jpg" alt="">
+                            <div class="texts">
+                                <p class="text1">MILK SHAKE DE CHOCOLATE</p>
+                                <p class="text2">Delicioso sorvete de baunilha com calda cremosa de framboesa</p>
+                                <div class="price">
+                                    <p class="price-princ">R$ 10,99</p>
+                                    <p class="price-promo">R$ 17,99</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="box2">
+                            <img class="foto2-carrosel" src="img/Carrosel/foto3.jpg" alt="">
+                            <div class="texts">
+                                <p class="text1">MILK SHAKE DE CHOCOLATE</p>
+                                <p class="text2">Delicioso sorvete de baunilha com calda cremosa de framboesa</p>
+                                <div class="price">
+                                    <p class="price-princ">R$ 10,99</p>
+                                    <p class="price-promo">R$ 17,99</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="box2">
+                            <img class="foto2-carrosel" src="img/Carrosel/foto3.jpg" alt="">
+                            <div class="texts">
+                                <p class="text1">MILK SHAKE DE CHOCOLATE</p>
+                                <p class="text2">Delicioso sorvete de baunilha com calda cremosa de framboesa</p>
+                                <div class="price">
+                                    <p class="price-princ">R$ 10,99</p>
+                                    <p class="price-promo">R$ 17,99</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="box2">
+                            <img class="foto2-carrosel" src="img/Carrosel/foto3.jpg" alt="">
+                            <div class="texts">
+                                <p class="text1">MILK SHAKE DE CHOCOLATE</p>
+                                <p class="text2">Delicioso sorvete de baunilha com calda cremosa de framboesa</p>
+                                <div class="price">
+                                    <p class="price-princ">R$ 10,99</p>
+                                    <p class="price-promo">R$ 17,99</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="bar">
+
+            </div>
+
+            <div class="market2">
+                
+                <h1 class="titulo2" id="#salgados" style="height: 10px; bottom: 40px; " >Salgado</h1>
+
+                <div class="segurar-boxs">
+                    <a href="">
+                        <div class="box3">
+                            <div class="foto">
+                                <img class="foto2-carrosel" src="img/Carrosel/foto3.jpg" alt="">
+                            </div>
+                            <div class="texts2">
+                                <p class="text12">MILK SHAKE DE CHOCOLATE</p>
+                                <p class="text22">Delicioso sorvete de baunilha com calda cremosa de framboesa</p>
+                                <div class="price2">
+                                    <p class="price-princ2">R$ 10,99</p>
+                                    <p class="price-promo2">R$ 17,99</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="box3">
+                            <div class="foto">
+                                <img class="foto2-carrosel" src="img/Carrosel/foto3.jpg" alt="">
+                            </div>
+                            <div class="texts2">
+                                <p class="text12">MILK SHAKE DE CHOCOLATE</p>
+                                <p class="text22">Delicioso sorvete de baunilha com calda cremosa de framboesa</p>
+                                <div class="price2">
+                                    <p class="price-princ2">R$ 10,99</p>
+                                    <p class="price-promo2">R$ 17,99</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="market2">
+                <div class="segurar-boxs">
+                    <a href="">
+                        <div class="box3">
+                            <div class="foto">
+                                <img class="foto2-carrosel" src="img/Carrosel/foto3.jpg" alt="">
+                            </div>
+                            <div class="texts2">
+                                <p class="text12">MILK SHAKE DE CHOCOLATE</p>
+                                <p class="text22">Delicioso sorvete de baunilha com calda cremosa de framboesa</p>
+                                <div class="price2">
+                                    <p class="price-princ2">R$ 10,99</p>
+                                    <p class="price-promo2">R$ 17,99</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="box3">
+                            <div class="foto">
+                                <img class="foto2-carrosel" src="img/Carrosel/foto3.jpg" alt="">
+                            </div>
+                            <div class="texts2">
+                                <p class="text12">MILK SHAKE DE CHOCOLATE</p>
+                                <p class="text22">Delicioso sorvete de baunilha com calda cremosa de framboesa</p>
+                                <div class="price2">
+                                    <p class="price-princ2">R$ 10,99</p>
+                                    <p class="price-promo2">R$ 17,99</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="market2">
+                <div class="segurar-boxs">
+                    <a href="">
+                        <div class="box3">
+                            <div class="foto">
+                                <img class="foto2-carrosel" src="img/Carrosel/foto3.jpg" alt="">
+                            </div>
+                            <div class="texts2">
+                                <p class="text12">MILK SHAKE DE CHOCOLATE</p>
+                                <p class="text22">Delicioso sorvete de baunilha com calda cremosa de framboesa</p>
+                                <div class="price2">
+                                    <p class="price-princ2">R$ 10,99</p>
+                                    <p class="price-promo2">R$ 17,99</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="box3">
+                            <div class="foto">
+                                <img class="foto2-carrosel" src="img/Carrosel/foto3.jpg" alt="">
+                            </div>
+                            <div class="texts2">
+                                <p class="text12">MILK SHAKE DE CHOCOLATE</p>
+                                <p class="text22">Delicioso sorvete de baunilha com calda cremosa de framboesa</p>
+                                <div class="price2">
+                                    <p class="price-princ2">R$ 10,99</p>
+                                    <p class="price-promo2">R$ 17,99</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="market2">
+                <div class="segurar-boxs">
+                    <a href="">
+                        <div class="box3">
+                            <div class="foto">
+                                <img class="foto2-carrosel" src="img/Carrosel/foto3.jpg" alt="">
+                            </div>
+                            <div class="texts2">
+                                <p class="text12">MILK SHAKE DE CHOCOLATE</p>
+                                <p class="text22">Delicioso sorvete de baunilha com calda cremosa de framboesa</p>
+                                <div class="price2">
+                                    <p class="price-princ2">R$ 10,99</p>
+                                    <p class="price-promo2">R$ 17,99</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="box3">
+                            <div class="foto">
+                                <img class="foto2-carrosel" src="img/Carrosel/foto3.jpg" alt="">
+                            </div>
+                            <div class="texts2">
+                                <p class="text12">MILK SHAKE DE CHOCOLATE</p>
+                                <p class="text22">Delicioso sorvete de baunilha com calda cremosa de framboesa</p>
+                                <div class="price2">
+                                    <p class="price-princ2">R$ 10,99</p>
+                                    <p class="price-promo2">R$ 17,99</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="market2">
+                <div class="segurar-boxs">
+                    <a href="">
+                        <div class="box3">
+                            <div class="foto">
+                                <img class="foto2-carrosel" src="img/Carrosel/foto3.jpg" alt="">
+                            </div>
+                            <div class="texts2">
+                                <p class="text12">MILK SHAKE DE CHOCOLATE</p>
+                                <p class="text22">Delicioso sorvete de baunilha com calda cremosa de framboesa</p>
+                                <div class="price2">
+                                    <p class="price-princ2">R$ 10,99</p>
+                                    <p class="price-promo2">R$ 17,99</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="box3">
+                            <div class="foto">
+                                <img class="foto2-carrosel" src="img/Carrosel/foto3.jpg" alt="">
+                            </div>
+                            <div class="texts2">
+                                <p class="text12">MILK SHAKE DE CHOCOLATE</p>
+                                <p class="text22">Delicioso sorvete de baunilha com calda cremosa de framboesa</p>
+                                <div class="price2">
+                                    <p class="price-princ2">R$ 10,99</p>
+                                    <p class="price-promo2">R$ 17,99</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="market2">
+                <div class="segurar-boxs">
+                    <a href="">
+                        <div class="box3">
+                            <div class="foto">
+                                <img class="foto2-carrosel" src="img/Carrosel/foto3.jpg" alt="">
+                            </div>
+                            <div class="texts2">
+                                <p class="text12">MILK SHAKE DE CHOCOLATE</p>
+                                <p class="text22">Delicioso sorvete de baunilha com calda cremosa de framboesa</p>
+                                <div class="price2">
+                                    <p class="price-princ2">R$ 10,99</p>
+                                    <p class="price-promo2">R$ 17,99</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="box3">
+                            <div class="foto">
+                                <img class="foto2-carrosel" src="img/Carrosel/foto3.jpg" alt="">
+                            </div>
+                            <div class="texts2">
+                                <p class="text12">MILK SHAKE DE CHOCOLATE</p>
+                                <p class="text22">Delicioso sorvete de baunilha com calda cremosa de framboesa</p>
+                                <div class="price2">
+                                    <p class="price-princ2">R$ 10,99</p>
+                                    <p class="price-promo2">R$ 17,99</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="espaco">
+                <h1>teste</h1>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="back">
+            <div class="div1">
+                <div class="local">
+                    <div class="">
+                        <img class="img-icon" src="/img/icons/local.png" alt="">
+                    </div>
+                    <div class="">
+                        <p>Av. Robert Bosch, s/n - Km 98 - <br> Vila Anhanguera, Campinas - SP, 13065-900</p>
+                    </div>
+                </div>
+                <div class="Contact">
+                    <div class="">
+                        <img class="img-icon" src="/img/icons/tele.png" alt="">
+                    </div>
+                    <div class="">
+                        <p>0800 704 5446</p>
+                    </div>
+                </div>
+                <div class="email">
+                    <img class="img-icon" src="/img/icons/email.png" alt="">
+                    <p>centro.memoria@institutorobertbosch.org.br</p>
+                </div>
+            </div>
+            <div class="div2">
+                <div class="about">
+                    <p>Lorem Ipsum is simply dummy </p>
+                </div>
+                <div class="sub-about">
+                    <p>Lorem Ipsum is simply dummy text of the printing and <br> typesetting industry. Lorem Ipsum has been <br> the industry's standard </p>
+                </div>
+                <div class="icons">
+                    <div class="">
+                        <a href=""><img class="img-icon-social" src="/img/icons/github.png" alt=""></a>
+                    </div>
+                    <div class="">
+                        <a href=""><img class="img-icon-social" src="/img/icons/linkedin.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/scriptsBanner.js"></script>
+</body>
+
+</html>

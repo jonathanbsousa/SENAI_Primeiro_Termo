@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="font/font.css">
+    <link rel="stylesheet" href="styles/carrinho.css">
+    <title>Document</title>
+</head>
+<body id="bodyaqui"> 
+    <header>
+        <div class="container-header">
+            <div class="box1">
+                <div class="logo">
+                    <img src="img/logo.png" alt="" />
+                </div>
+                <div class="procurar">
+                    <input class="search" type="text" />
+                </div>
+                <div class="lista">
+                    <ul>
+                        <li><a href="loja.html">HOME</a></li>
+                        <li><a href="/carrinho.html"><img style="width: 60px;
+                                position: relative;
+                                bottom: 15px;
+                                " src="/img/icons/carrinho.png" alt=""></a></li>
+                        <li><a href="/login.html"><img style="
+                                width: 50px;
+                                position: relative;
+                                bottom: 11px;
+                                " src="/img/icons/User.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="category">
+            <div class="container-category">
+                <div class="lista2">
+                    <ul>
+                        <li>Bolos</li>
+                        <li>Panificados</li>
+                        <li><a href="#salgados">Salgados</a></li>
+                        <li>Bebida</li>
+                        <li>Carnes</li>
+                        <li>Massas</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="central">
+            <div class="caixa1">
+                <div class="title1">
+                    <p>Carrinho de Compras</p>
+                </div>
+                <div class="box1-main">
+                    <div class="title-produto2">
+                        <ul>
+                            <li>Produto</li>
+                        </ul>
+                    </div>
+                    <ul>
+                        <li>Price</li>
+                        <li>Quantity</li>
+                        <li>Subtotal</li>
+                    </ul>
+                </div>
+                <div class="box2-main">
+                    <div class="img-div">
+                        <img class="imagem-produto" src="img/Carrosel/foto3.jpg" alt="" style="border-radius: 10px;">
+                    </div>
+                    <div class="text1">
+                        <p class="text-produto1">MilkShake de Chocolate</p>
+                    </div>
+                    <ul>
+                        <li id="preco1"  >10,00</li>
+                        <li id="quantidade1" >2</li>
+                        <li >10,00</li>
+                    </ul>
+                </div>
+                <div class="box2-main" id="cinza">
+                    <div class="img-div">
+                        <img class="imagem-produto" src="img/Carrosel/foto3.jpg" alt="">
+                    </div>
+                    <div class="text1">
+                        <p class="text-produto1">Texto do produto</p>
+                    </div>
+                    <ul>
+                        <li id="preco2"> 24,00</li>
+                        <li id="quantidade2"  >5</li>
+                        <li>00,00</li>
+                    </ul>
+                </div>
+                <div class="box2-main">
+                    <div class="img-div">
+                        <img class="imagem-produto" src="img/Carrosel/foto3.jpg" alt="">
+                    </div>
+                    <div class="text1">
+                        <p class="text-produto1">Texto do produto</p>
+                    </div>
+                    <ul>
+                        <li>R$00,00</li>
+                        <li id="quantidade3"  >2</li>
+                        <li id="preco3">39,00</li>
+                    </ul>
+                </div>
+                <div class="box3-main">
+                    <div class="inputs">
+                        <input type="text" placeholder="Cupom Code" id="cupom" style="color: black;">
+                        <button onclick="cumpomActive()" >Apply Cupom</button>
+                    </div>
+                    <div class="botao">
+                       <button>Update Cart</button> 
+                    </div>
+                </div>
+            </div>
+            <div class="caixa2">
+                <div class="titulo2">
+                    <p>Cart Totals</p>
+                </div>
+                <div class="teste">
+                    <div class="box1-caixa2">
+                        <p>SubTotal</p>
+                    </div>
+                    <div class="box2-caixa2">
+                        <p id="price-sub"></p>
+                    </div>
+                </div>
+                <div class="teste">
+                    <div class="box1-caixa2">
+                        <p>Frete</p>
+                    </div>
+                    <div class="box2-caixa2">
+                        <p id="frete">17,00</p>
+                    </div>
+                </div>
+                <div class="teste">
+                    <div class="box1-caixa2">
+                        <p >Cupom</p>
+                    </div>
+                    <div class="box2-caixa2">
+                        <p id="MostrarCupom" ></p>
+                    </div>
+                </div>
+                <div class="teste">
+                    <div class="box1-caixa2">
+                        <p>Total</p>
+                    </div>
+                    <div class="box2-caixa2">
+                        <p id="total" >R$ 00,00</p>
+                    </div>
+                </div>
+                <div class="btn-div">
+                    <button class="btn" onclick="MostrarMensage()">Confirmar Pedido</button>
+                </div>
+            </div>
+        </div>
+        <div id="desaparecer">
+
+        </div>
+        <div id="popUp">
+            <img src="img/logo.png" alt="">
+            <h1 id="texto-pedido">Pedido Concluido !</h1>
+            <button id="btn-pedido" onclick="DesaparecerMensagem()">X</button>
+            
+        </div>
+    </main>
+    <script src="js/carrinho.js"></script>
+</body>
+</html>

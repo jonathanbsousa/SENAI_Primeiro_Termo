@@ -1,0 +1,21 @@
+Agora você compreende a importancia de redes, monitoramento, bem como a segurança de dados?
+
+Sim, todos esses casos são importantes para a a proteção do ambiente não só industrial, e servem como uma forma de agilizar processos e faze-los eficazes.
+
+--------------------------------------------------------------------------------------------------------------------
+Quais dos casos nesse video foram mais impactantes na sociedade?
+
+O surgimento da industria 4.0, foi uma das mais impactantes na sociedade como um todo, porque ela alterou a forma que as coisas são feitas, fazendo assim possivel, diversos processos que antesa não eram possivel devidos as inovações que surgiram com a colaboração entre maquinas.
+
+--------------------------------------------------------------------------------------------------------------------
+Quais ações seriam necessárias para a segurança da rede?
+
+- Criptografia de dados
+- Firewalls, software anti-malware
+- Controle de acesso remoto
+- Sistema de controle de Invasão 
+
+--------------------------------------------------------------------------------------------------------------------
+A inteligencia artificial poderia atuar de forma autônoma com dados coletados em rede?
+
+Sim, devido a alta capacidade de processamento que elas possuem, e ajuda no processo de coleta de dados pois conseguem fazer a coleta de dados de forma rapida e eficiente.

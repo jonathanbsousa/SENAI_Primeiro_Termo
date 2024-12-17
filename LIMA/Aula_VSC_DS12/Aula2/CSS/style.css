@@ -1,0 +1,19 @@
+body{
+background-color: darkblue;
+}
+
+.flex_container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    
+    justify-content: center;
+    margin: auto;
+    width: 400px;
+    height: 600px;
+
+}
+
+.formulario{
+display: flex;
+}

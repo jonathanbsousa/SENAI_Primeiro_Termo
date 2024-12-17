@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exibir Pedido Concluído com Fechar</title>
+    <style>
+        /* Estilizando a mensagem de pedido concluído */
+        #mensagem {
+            display: none; /* Escondido inicialmente */
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 20px;
+            border-radius: 5px;
+            position: relative;
+            margin-top: 20px;
+        }
+
+        /* Estilizando o botão "X" */
+        .fechar {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            background-color: transparent;
+            border: none;
+            font-size: 18px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .fechar:hover {
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Finalizar Pedido</h1>
+    <button onclick="mostrarMensagem()">Concluir Pedido</button>
+
+    <div id="mensagem">
+        Pedido concluído!
+        <button class="fechar" onclick="fecharMensagem()">X</button>
+    </div>
+
+    <script>
+        // Função para mostrar a mensagem
+        function mostrarMensagem() {
+            document.getElementById("mensagem").style.display = "block";
+        }
+
+        // Função para fechar a mensagem
+        function fecharMensagem() {
+            document.getElementById("mensagem").style.display = "none";
+        }
+    </script>
+
+</body>
+</html>

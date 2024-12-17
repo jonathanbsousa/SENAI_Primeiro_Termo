@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="font/font.css">
+    <link rel="stylesheet" href="styles/carrinho.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+
+<body id="bodyaqui">
+    <header>
+        <div class="container-header">
+            <div class="box1">
+                <div class="logo">
+                    <img src="img/logo.png" alt="" />
+                </div>
+                <div class="procurar">
+                    <input class="search" type="text" />
+                </div>
+                <div class="lista">
+                    <ul>
+                        <li><a href="loja.html">HOME</a></li>
+                        <li><a href="/carrinho.html"><img style="width: 60px;
+                                position: relative;
+                                bottom: 15px;
+                                " src="/img/icons/carrinho.png" alt=""></a></li>
+                        <li><a href="/login.html"><img style="
+                                width: 50px;
+                                position: relative;
+                                bottom: 11px;
+                                " src="/img/icons/User.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="category">
+            <div class="container-category">
+                <div class="lista2">
+                    <ul>
+                        <li>Bolos</li>
+                        <li>Panificados</li>
+                        <li><a href="#salgados">Salgados</a></li>
+                        <li>Bebida</li>
+                        <li>Carnes</li>
+                        <li>Massas</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="central">
+            <div class="tabela">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>PRODUTO</th>
+                            <th>PREÇO</th>
+                            <th>QUANTIDADE</th>
+                            <th>SUBTOTAL</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="product">
+                                    <img src="https://picsum.photos/100/120" alt="">
+                                    <div class="info">
+                                        <div class="name">NomedoProduto</div>
+                                        <div class="categoria">Categoria</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td id="price1" >29,90</td>
+                            <td>
+                                <div class="">
+                                    <P class="qty">5</P>
+                                </div>
+                            </td>
+                            <td id="preco-final" ></td>
+                            <td><i class='bx bx-x'></i></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="product">
+                                    <img src="https://picsum.photos/100/120" alt="">
+                                    <div class="info">
+                                        <div class="name">NomedoProduto</div>
+                                        <div class="categoria">Categoria</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>R$ 29,90</td>
+                            <td>
+                                <div class="">
+                                    <input style="width: 50px;" type="number">
+                                </div>
+                            </td>
+                            <td>R$ 29,99</td>
+                            <td><i class='bx bx-x'></i></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="product">
+                                    <img src="https://picsum.photos/100/120" alt="">
+                                    <div class="info">
+                                        <div class="name">NomedoProduto</div>
+                                        <div class="categoria">Categoria</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>R$ 29,90</td>
+                            <td>
+                                <div class="">
+                                    <input style="width: 50px;" type="number">
+                                </div>
+                            </td>
+                            <td>R$ 29,99</td>
+                            <td><i class='bx bx-x'></i></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="product">
+                                    <img src="https://picsum.photos/100/120" alt="">
+                                    <div class="info">
+                                        <div class="name">NomedoProduto</div>
+                                        <div class="categoria">Categoria</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>R$ 29,90</td>
+                            <td>
+                                <div class="">
+                                    <input style="width: 50px;" type="number">
+                                </div>
+                            </td>
+                            <td>R$ 29,99</td>
+                            <td><i class='bx bx-x'></i></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="checkout">
+                <div class="Sumary">
+                    <p>Sumary</p>
+                </div>
+                <div class="aqui">
+                    <div class="infos">
+                        <div class="sub">
+                            <p>Subtotal</p>
+                            <p>R$ 150,00</p>
+                        </div>
+                        <div class="Frete">
+                            <p>Shipping</p>
+                            <p>Free</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="total-check">
+                    <div class="aqui2">
+                        <p>Total</p>
+                        <p>R$ 150,00</p>
+
+                    </div>
+                </div>
+                <div class="btn">
+                    <button>BUY IT</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/carrinho.js"></script>
+</body>
+
+</html>

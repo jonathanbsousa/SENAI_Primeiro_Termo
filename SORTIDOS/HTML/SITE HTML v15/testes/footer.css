@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+}
+
+/**/
+.back{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    position: relative;
+    top: 200vh;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 500px;
+}
+.div1, .div2{
+    position: relative;
+    top: 80px;
+    height: 200px;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.img-icon{
+    width: 50px;
+}
+.local, .Contact, .email{
+    display: flex;
+    gap: 10px;
+}
+.Contact p, .email p{
+    position: relative;
+    top: 12px;
+}
+.email p{
+    color: rgb(84, 84, 255);
+}
+
+.div2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.about{
+    font-size: 25px;
+    font-weight: 700;
+}
+.sub-about{
+    font: 20px;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+}
+.img-icon-social{
+    width: 40px;
+}

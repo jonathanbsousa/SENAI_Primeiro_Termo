@@ -1,0 +1,144 @@
+/*LOJA*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+}
+body{
+    background-color: #cccccc3b;
+}
+
+.container-header {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+}
+.container-header .box1 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+    top: 50px;
+}
+.container-header .box1 .logo img {
+    width: 250px;
+    position: relative;
+    bottom: 50px;
+}
+.container-header .procurar .search {
+    padding: 1px 170px;
+    border-radius: 20px;
+    font-size: 25px;
+    color: black;
+}
+.container-header .box1 .lista ul {
+    display: flex;
+    gap: 50px;
+}
+.container-header .box1 .lista ul li a {
+    font-size: 20px;
+}
+.category .container-category {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    bottom: 20px;
+    background-color: rgb(0, 0, 0);
+}
+.category .container-category .lista2 ul {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    position: relative;
+    top: 15px;
+}
+
+/*MAIN*/
+.container{
+    width: 1440px;
+    height: 1000px;
+    background-color: white;
+    box-shadow: 0px 1px 5px 1px #ccc;
+    margin: 0 auto;
+    display: flex;
+    gap: 150px;
+}
+
+.container-product1{
+    width: 700px;
+    height: 600px;
+    position: relative;
+    left: 100px;
+    top: 150px;
+    border: 1px solid black;
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.container-info-product1{
+    width: 440px;
+    height: 700px;
+    position: relative;
+    left: 100px;
+    top: 150px;
+
+    .titulo-produto{
+        font-size: 25px;
+        color: black;
+    
+    }
+    .titulo{
+
+        .nivel{
+            p{
+                color: black;
+            }
+        }   
+        .new{
+            p{
+                color: black; 
+                font-size: 12px; 
+            }
+        }
+    }
+    .price{
+        .preco{
+            color: black;
+            font-size: 45px;
+        }
+        .promo{
+            color: #ababab;
+            font-size: 16px;
+        }
+        .card{
+            color: blue;
+            font-size: 16px;
+            font-weight: 500;
+        }
+    }
+    .sabor{
+        .segurar-box{
+            display: flex;
+            gap: 10px;
+            
+
+            .box{
+                width: 50px;
+                height: 50px;
+                border: 1px dashed #ccc;
+                cursor: pointer;
+            }
+            .box:hover{
+                background-color: #ccc;
+            }
+        }
+    }
+}

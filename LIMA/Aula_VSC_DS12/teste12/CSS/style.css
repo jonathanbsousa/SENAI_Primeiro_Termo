@@ -1,0 +1,20 @@
+body{
+background: linear-gradient(90deg, rgb(0, 0, 0), rgb(48, 48, 217), rgb(15, 143, 255));
+}
+
+.flex_container{
+    position: relative;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 20px;
+    width: 400px;
+    height: 600px;
+    display: flex;
+    top: 150px;
+    margin: auto;
+}
+.formulario{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}

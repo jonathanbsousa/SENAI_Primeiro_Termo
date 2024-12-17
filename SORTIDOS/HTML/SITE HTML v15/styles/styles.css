@@ -1,0 +1,312 @@
+/*LOJA*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+}
+.container-header {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+}
+.container-header .box1 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+    top: 50px;
+}
+.container-header .box1 .logo img {
+    width: 250px;
+    position: relative;
+    bottom: 50px;
+}
+.container-header .procurar .search {
+    padding: 1px 170px;
+    border-radius: 20px;
+    font-size: 25px;
+    color: black;
+}
+.container-header .box1 .lista ul {
+    display: flex;
+    gap: 50px;
+}
+.container-header .box1 .lista ul li a {
+    font-size: 20px;
+}
+.category .container-category {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    bottom: 20px;
+    background-color: rgb(0, 0, 0);
+}
+.category .container-category .lista2 ul {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    position: relative;
+    top: 15px;
+}
+.cc{
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 700px;
+    background-color: black;
+}
+.imagem{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+.btn{
+    position: relative;
+    top: 30px;
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+}
+.btn .botao1, .botao2{
+    padding: 10px;
+    background-color: black;
+    border-radius: 100px;
+    cursor: pointer;
+    border: none;
+}
+.btn .botao1:hover, .botao2:hover{
+    transition: 0.3s all;
+    background-color: #9c9c9c;
+}
+.container-main .vendidos {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    top: 450px;
+}
+.container-main .vendidos .boxs {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 120px;
+    gap: 70px;
+}
+.container-main .vendidos .boxs .box1 {
+    width: 400px;
+    height: 500px;
+    background-color: red;
+    box-shadow: 1px 1px 10px 1px black;
+    cursor: pointer;
+    overflow: hidden;
+}
+.container-main .vendidos .boxs .seta{
+    position: relative;
+    top: 250px;
+}
+.container-main .vendidos .boxs .seta .seta-esquerda, .seta-direita{
+    width: 50px;
+    cursor: pointer;
+}
+.seta-esquerda{
+    rotate: 180deg;
+}
+
+.foto1-carrosel:hover{
+    transform: scale(1.4) rotate(10deg);
+}
+.titulo1{
+    position: relative;
+    bottom: 10px;
+    color: black;
+    margin-left: 200px;
+    z-index: 3;
+    font-family: Roboto;
+}
+.market{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    top: 500px;
+}
+.market .segurar-boxs{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+
+}
+.market .segurar-boxs .box2{
+    width: 400px;
+    height: 500px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.foto1-carrosel{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1.5s ease;
+}
+.foto2-carrosel{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.texts{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    bottom: 20px;
+    margin-left: 10px;
+}
+.text1, .text2{
+    color: black;
+    position: relative;
+    top: 30px;
+    font-size: 15px;
+}
+.texts .price{
+    position: relative;
+    top: 170px;
+    display: flex;
+    gap: 20px;
+}
+.price .price-princ{
+    color: rgb(57, 215, 57);
+}
+.price .price-promo{
+    color: #ccc;
+}
+.bar{
+    width: 100%;
+    height: 50px;
+    background-color: #ccccccaf;
+    position: relative;
+    top: 700px;
+}
+.titulo2{
+    position: relative;
+    bottom: 10px;
+    color: black;
+    margin-left: 200px;
+    z-index: 3;
+    font-family: Roboto;
+}
+.market2{
+    width: 100%;
+    height: 290px;
+    position: relative;
+    top: 850px;
+}
+.market2 .segurar-boxs{
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+
+}
+.market2 .segurar-boxs .box3{
+    width: 700px;
+    height: 250px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.market2 .segurar-boxs .box3 .foto{
+    display: flex;
+    justify-content: end;
+}
+.market2 .segurar-boxs .box3 .foto2-carrosel{
+    width: 250px;
+    position: relative;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.texts2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    bottom: 140px;
+    margin-left: 10px;
+}
+.text12, .text22{
+    color: black;
+    position: relative;
+    bottom: 50px;
+    font-size: 13px;
+    width: 400px;
+}
+.texts2 .price2{
+    position: relative;
+    top: 30px;
+    display: flex;
+    gap: 20px;
+}
+.price2 .price-princ2{
+    color: rgb(57, 215, 57);
+}
+.price2 .price-promo2{
+    color: #ccc;
+}
+/*FOOTER*/
+.back{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    position: relative;
+    justify-content: end;
+    top: 150vh;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 500px;
+}
+.div1, .div2{
+    position: relative;
+    top: 80px;
+    height: 200px;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.img-icon{
+    width: 50px;
+}
+.local, .Contact, .email{
+    display: flex;
+    gap: 10px;
+}
+.Contact p, .email p{
+    position: relative;
+    top: 12px;
+}
+.email p{
+    color: rgb(84, 84, 255);
+}
+
+.div2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.about{
+    font-size: 25px;
+    font-weight: 700;
+}
+.sub-about{
+    font: 20px;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+}
+.img-icon-social{
+    width: 40px;
+}

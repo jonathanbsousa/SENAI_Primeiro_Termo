@@ -1,0 +1,33 @@
+O escopo de uma Política de Segurança da Informação (PSI) define as fronteiras e os limites da política, especificando quais ativos de informação, processos, sistemas e áreas da organização estão cobertos.
+
+**Importância do Escopo**
+
+Delimitação Clara: Um escopo bem definido ajuda a identificar quais dados e sistemas precisam de proteção, evitando ambiguidades.
+
+Conformidade e Gestão de Riscos: Facilita a identificação de requisitos de conformidade e riscos associados a diferentes partes da organização.
+
+**Empresas Pequenas vs. Grandes Corporações**:
+
+Pequenas Empresas: O escopo pode abranger toda a operação, incluindo todos os dados de clientes e financeiros, dado o menor número de sistemas e processos.
+
+Grandes Corporações: O escopo pode ser segmentado por departamento (TI, RH, financeiro), com políticas específicas para cada um, refletindo a complexidade e o volume de dados tratados.
+
+**Setores Regulamentados vs. Não Regulamentados**:
+
+Setor de Saúde: O escopo deve incluir diretrizes rigorosas para proteger informações de saúde, como prontuários médicos.
+
+Setor de Varejo: O escopo pode ser mais flexível, focando na proteção de informações de pagamento e dados de clientes, sem as mesmas exigências regulatórias.
+
+Aplicação Prática:
+
+Caso da Target Corporation
+
+Contexto: Em 2013, a Target sofreu uma violação de segurança que comprometeu os dados de aproximadamente 40 milhões de cartões de crédito e débito. A investigação revelou que os hackers acessaram a rede da empresa por meio de credenciais de um fornecedor.
+
+Lições Aprendidas
+
+Após a violação, a Target revisou sua PSI e expandiu o escopo para incluir:
+
+Segurança de Fornecedores: Implementação de controles de segurança para proteger dados de fornecedores.
+Treinamento e Conscientização: Programas de treinamento para funcionários sobre segurança da informação.
+Monitoramento Contínuo: Implementação de monitoramento proativo de redes e sistemas para detectar atividades suspeitas.

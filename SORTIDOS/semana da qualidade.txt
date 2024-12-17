@@ -1,0 +1,21 @@
+Semana da qualidade:
+
+*ideias*:
+
+- jogo de rpg
+- realidade aumetada
+- jogo em equipe com questionario
+
+*jogo(provisório)*:
+
+Um jogo de RPG pixelado para explicar os 14 QBs, o jogo vai consistir em 14 niveis cada uma explicando 1 QBs.
+
+*realidade aumentada*: 
+
+Uma aplicação de realidade aumentada para mostrar ná pratica como funciona os 14 QBs
+
+-----------------------
+
+*resumo*:
+
+em um jogo em equipes de perguntas e respostas onde tudo aquilo que foi passado pelo jogo de RPG decerá servir para responder um questionario sobre os 14 QBs

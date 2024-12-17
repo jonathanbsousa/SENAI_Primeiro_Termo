@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    z-index: 2;
+}
+body{
+    background-color: black;
+}
+.fundo{
+    position: absolute;
+    width: 100%;
+    height: 953px;
+    opacity: 30%;
+}
+.container-box .box{
+    width: 500px;
+    height: 800px;
+    box-shadow:  1px 1px 15px 1px white;
+    backdrop-filter: blur(20px);
+    margin: 0 auto;
+    position: relative;
+    top: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.container-box .box .logo, .logar, .inputs, .botao, .registrar{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+} 
+.logo{
+    width: 250px;
+}
+.logar{
+    font-size: 30px;
+}
+.inputs{
+    display: flex;
+    gap: 15px;
+}
+.inputs .user, .password{
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: black;
+}
+.btn{
+    padding: 10px 50px;
+    border: 1px solid #ccc;
+    background-color: transparent;
+    border-radius: 15px;
+}
+.registrar p a{
+    color: rgb(123, 123, 255);
+    border-bottom: 1px solid rgb(123, 123, 255);
+}
